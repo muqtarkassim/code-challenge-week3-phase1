@@ -1,0 +1,56 @@
+.header img{
+height:100px;
+width:300px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+body{
+    background-color: black;
+    color: beige;
+    height: 100%;
+    width: 100%;
+}
+
+.movies-all{
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 900px;
+    padding: 30px;
+  
+}
+.movies-all p{
+    cursor: pointer;
+}
+
+.movie-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movie-details img{
+height: 400px;
+width:400px;
+}
+.movie-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span{
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: green;
+}
+button{
+    height:40px;
+  cursor: pointer;
+    background-color: brown;
+    color:black;
+    border-radius: 10px;
+}
