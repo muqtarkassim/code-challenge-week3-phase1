@@ -33,6 +33,16 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.hr{
+    height: 1px;
+    color: rgb(9, 8, 8);
+}
+.movie-list p{
+    background-color: rgba(20, 16, 16, 0.807);
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
 .movie-details img{
 height: 400px;
 width:400px;
